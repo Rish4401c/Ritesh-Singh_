@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // ==========================================
-  // 6. RADAR ANALYSIS RECONSTRUCTION (CLEANED)
+  // 6. RADAR ANALYSIS SYSTEM (CALIBRATED VALUES)
   // ==========================================
   const canvasTarget = document.getElementById("skillChart");
   if (canvasTarget) {
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
         labels: ["Python Core", "SQL Ecosystem", "Power BI Dev", "Excel Analytics", "Data Wrangling & ETL", "Web Engine Core"],
         datasets: [{
           label: "Core Matrix Competency (%)",
-          data: [90, 85, 88, 90, 86, 70],
+          data: [88, 82, 76, 74, 75, 72], // Python and SQL strong, rest calibrated near ~75%
           backgroundColor: "rgba(99, 102, 241, 0.15)",
           borderColor: "#6366F1",
           pointBackgroundColor: "#8B5CF6",
@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // ==========================================
-  // 7. RESPONSIVE LAYER HEADER TOGGLES
+  // 7. RESPONSIVE MOBILE LAYER HEADER TOGGLES
   // ==========================================
   const menuBtn = document.querySelector(".menu-btn");
   const navLinks = document.querySelector(".nav-links");
